@@ -1,0 +1,64 @@
+.inputfield {
+    padding: 20px;
+    background-color: rgb(214, 214, 214);
+    margin-top: 10px;
+    border-color: aqua;
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+
+
+body{
+    background-attachment: fixed;
+    background-image: linear-gradient(#129490, #065143);
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    /* background-color: #065143; */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #d1fffd;
+}
+
+label {
+    margin-top: 40px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+::selection{
+    background-color: rgb(0, 255, 187);
+}
+
+button{
+  background-color: #14c483;
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 40px;
+}
+
+.round {
+    border-radius: 20px;
+}
+
+.glow {
+    color: #fff;
+    text-align: center;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+  }
+  
+  @-webkit-keyframes glow {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #00e658, 0 0 40px #00e641, 0 0 50px #00e632, 0 0 60px #00e651, 0 0 70px #00e604;
+    }
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 30px #4dff7c, 0 0 40px #4dff8e, 0 0 50px #4dff88, 0 0 60px #4dffa0, 0 0 70px #4dff71, 0 0 80px #4dff82;
+    }
+  }

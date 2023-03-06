@@ -1,0 +1,237 @@
+header {
+    transition: 0.5s ;
+    width: 100%;
+    left:0;
+    padding: -80px;
+}
+body { 
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    height: 100%;
+    align-items: center;
+    text-align: center;
+    font-size: 30px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 2000px;
+
+    animation: 15s infinite alternate oaoaoa;
+
+    
+}
+p{
+    margin: 50px;
+
+    transition: 0.2s;
+}
+
+@keyframes oaoaoa {
+     0%   {background-color: rgb(179, 116, 116);}
+    25%  {background-color: rgb(184, 184, 126);}
+    50%  {background-color: rgb(126, 126, 178);}
+    100% {background-color: rgb(122, 161, 122);} 
+}
+
+p:hover {
+    text-shadow: 0 0 20px #4c4b4b41,
+    0 0 20px rgba(58, 58, 58, 0.353),
+    0 0 20px #35353563;
+}
+
+::selection{
+    background-color: crimson;
+}
+
+h1{
+    transition: 0.2s;
+    top: -0px;
+    left: 0;
+    /* position: sticky;  */
+}
+
+h1:hover {
+    color: aliceblue;
+    text-shadow: 0 0 20px aliceblue,
+    0 0 20px rgba(240, 248, 255, 0.308),
+    0 0 20px rgba(240, 248, 255, 0.285);
+}
+
+a{
+    text-decoration: none;
+    color: rgb(255, 113, 142);
+    margin: 20px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: aliceblue;
+    text-shadow: 0 0 20px red,
+    0 0 20px red,
+    0 0 20px red;
+}
+
+.scroll-up {
+    /*
+    left: 0;
+    
+    position: sticky;
+     */
+     /* top: -15px;  */
+    background-color: white;
+    border-radius: 50px;
+    top: 5px;
+    position: sticky;
+    transition: 0.5s;
+}
+
+.scroll-down {
+    background-color: rgba(255, 255, 255, 0);
+    top: -15px;
+    position: sticky;
+    transition: 0.5s;
+    transform: translateY(-200px);
+}
+
+.div1 {
+    margin-top: 50px;
+    background-color: rgb(207, 241, 255);
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    height: 70vh;
+    border-radius: 50px;
+   
+}
+
+.div1 p {
+    flex: 0 0 120px;
+    font-size: 40px;
+    white-space: nowrap;
+}
+
+.footer {
+    background-color: white;
+    letter-spacing: 9vh;
+    left: 0;
+    width: 100%;
+
+    transition: all 1s;
+    animation: letter-spacing 2s infinite;
+    animation-play-state: paused
+}
+
+.footer:hover {
+
+    animation-play-state: running;
+
+    transition: all 1s;
+    -webkit-transition: all 1.5s;
+}
+
+.dollar {
+    margin: 0.6vh;
+    background-color: rgba(0, 0, 0, 0.226);
+    border-radius: 30px;
+    position: fixed;
+    right: 0px;
+    top: 0px;
+}
+
+.logo {
+    cursor: pointer;
+    margin: 1vh;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 7%;
+    background-color: white;
+    border-radius: 50px;
+
+    transition: 0.25s;
+}
+
+.logo:hover {
+    filter: brightness(80%);
+}
+
+.funny {
+    animation: slow_and_beautiful 2s infinite;
+}
+
+@keyframes slow_and_beautiful {
+    0% {transform: translateY(-20px);}
+    50% {transform: translateY(20px);}
+    100% {transform: translateY(-20px);}
+}
+
+@keyframes letter-spacing {
+    0% {letter-spacing: 1.32em;}
+    50% {letter-spacing: 0.7em;}
+    100% {letter-spacing: 1.32em;}
+}
+
+.entire-page {
+    position: fixed;
+    top: 0;
+    left: 0;
+    color: rgba(0, 0, 0, 0);
+    background-color: rgba(255, 255, 255, 0);
+    width: 100%;
+    height: 100%;
+    box-shadow: inset 0px 0px 20px black;
+    z-index: -1;
+}
+
+.buy-btn {
+    margin-bottom: 18vh;
+    width: 30%;
+    height: 15vh;
+    border-radius: 50px;
+    background-color: rgba(0, 0, 0, 0);
+    font-size: 30px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.buy-btn:hover {
+    border-width: 10px;
+    border-color: rgba(0, 0, 0, 0.044);
+    width: 40%;
+    background-color: rgba(220, 20, 60, 0.247);
+    box-shadow: inset 0px 0px 10px black;
+    color: aliceblue;
+    text-shadow: 0 0 20px red,
+    0 0 20px red,
+    0 0 20px red;
+}
+
+.any {
+    margin: 0px;
+    animation: rainbow 5s infinite;
+}
+
+@keyframes rainbow {
+    0% {color: red;
+        text-shadow: 0 0 10px lightcyan,
+        0 0 10px lightcyan,
+        0 0 10px lightcyan;}
+    25% {color: orange;
+        text-shadow: 0 0 10px blue,
+        0 0 10px blue,
+        0 0 10px blue;}
+    50% {color: yellow;
+        text-shadow: 0 0 10px yellow,
+        0 0 10px yellow,
+        0 0 10px yellow;}
+    75% {color: blue;
+        text-shadow: 0 0 10px orange,
+        0 0 10px orange,
+        0 0 10px orange;}
+    100% {color: red;
+        text-shadow: 0 0 10px lightcyan,
+        0 0 10px lightcyan,
+        0 0 10px lightcyan;}
+}
