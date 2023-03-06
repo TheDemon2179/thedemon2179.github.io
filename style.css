@@ -9,7 +9,7 @@ body {
     height: 100%;
     align-items: center;
     text-align: center;
-    font-size: 30px;
+    font-size: 4.5vh;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 2000px;
@@ -146,7 +146,7 @@ a:hover {
     position: fixed;
     left: 0;
     top: 0;
-    width: 7%;
+    width: 6vh;
     background-color: white;
     border-radius: 50px;
 
