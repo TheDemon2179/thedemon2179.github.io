@@ -2,6 +2,9 @@
 Testing, trying and learning html, js and css the hard way. 
 
 Literally AI generated description, so don't expect this functionality. Atleast, any time soon, lol.
+
+---
+
 The “Kvartirochka” website is a web application that allows users to search, view, and book rental apartments in different cities. The site consists of several pages, designed using HTML and CSS, and contains interactive elements implemented using JavaScript.
 
 The main page of the site contains the company logo, the main navigation menu, a search form for apartments by city, dates, and number of guests, as well as a block with popular offers. When entering data into the search form and clicking the “Find” button, the user is redirected to the search results page.
