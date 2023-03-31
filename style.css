@@ -214,23 +214,23 @@ a:hover {
 }
 
 @keyframes rainbow {
-    0% {color: red;
+    0% {color: rgb(255, 201, 201);
         text-shadow: 0 0 10px lightcyan,
         0 0 10px lightcyan,
         0 0 10px lightcyan;}
-    25% {color: orange;
-        text-shadow: 0 0 10px blue,
-        0 0 10px blue,
-        0 0 10px blue;}
-    50% {color: yellow;
-        text-shadow: 0 0 10px yellow,
-        0 0 10px yellow,
-        0 0 10px yellow;}
-    75% {color: blue;
-        text-shadow: 0 0 10px orange,
-        0 0 10px orange,
-        0 0 10px orange;}
-    100% {color: red;
+    25% {color: rgb(182, 210, 255);
+        text-shadow: 0 0 10px rgb(204, 204, 255),
+        0 0 10px rgb(181, 181, 255),
+        0 0 10px rgb(175, 175, 255);}
+    50% {color: #ffffcf;
+        text-shadow: 0 0 10px rgb(255, 255, 220),
+        0 0 10px rgb(255, 255, 217),
+        0 0 10px rgb(255, 255, 222);}
+    75% {color: rgb(255, 210, 159);
+        text-shadow: 0 0 10px rgb(255, 243, 220),
+        0 0 10px rgb(255, 232, 189),
+        0 0 10px rgb(255, 238, 208);}
+    100% {color: rgb(255, 201, 201);
         text-shadow: 0 0 10px lightcyan,
         0 0 10px lightcyan,
         0 0 10px lightcyan;}
